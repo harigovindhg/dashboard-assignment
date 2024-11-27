@@ -1,0 +1,22 @@
+@import "~bootstrap/scss/bootstrap";
+@import "DataTable.scss";
+@import "SideMenu.scss";
+@import "InsightsButtonGroup.scss";
+
+body {
+  background-color: rgba(244, 246, 252, 1);
+}
+
+.dashboard-container {
+  display: flex;
+  padding: 20px;
+
+  .sidebar {
+    width: 20%;
+    // margin-right: 20px;
+  }
+
+  .data-table {
+    width: 80%;
+  }
+}
